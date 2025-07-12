@@ -108,7 +108,7 @@ $ nodemon <filename.js>
 ### ทดสอบการทำงานกับ Testcase ที่ใช้ในระบบ Classroom autograder
 
 ระบบจะระบบจะตรวจสอบการทำงานจากไฟล์ JavaScript ที่ได้จากการ compile เท่านั้น ดังนั้นจึงต้องทำการ compile ด้วยคำสั่ง `npx tsc <filename.ts>` เสียก่อน
-จากนั้นตรวจการทำงานกับ Testcase ด้วยคำสั่ว
+จากนั้นตรวจการทำงานกับ Testcase ด้วยคำสั่ง
 
 ```bash
 $ npm run test q1     // เพื่อตรวจข้อ q1
